@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+ }
+ body {
+    background: #ffffff34;
+ }
+ .wedding {
+    position: relative;
+    max-width: 320px;
+    margin: 50px auto 0;
+    text-align: center;
+ }
+ 
+
+ .form-content {
+    position: relative;
+    margin: 30px -40px 0 -40px;
+    padding: 10px 40px 0 40px;
+    background: #3032b6b6;
+    border-radius: 10px;
+ }
+ 
+ .form-content h3 {
+    
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: normal;
+ }
+ .form-content input, .form-content .nsel {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 10px;
+    background: #ffffff;
+    border: 1px solid #DDDDDD;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #808080;
+    outline: none;
+ }
+
+ .form-content input, .form-content select {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 10px;
+    background: #ffffff;
+    border: 1px solid #DDDDDD;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #808080;
+    outline: none;
+ }
+
+ .form-content input {
+    width: 100%;
+ }
+ .form-content input:focus, .form-content .nsel:focus {
+    border-color: #193285;
+ }
+
+ .form-content input:focus, .form-content select:focus {
+    border-color: #14265f;
+ }
+ .form-content input[type="submit"] {
+    margin: 20px 0;
+    padding: 0 10px;
+    background: #193285;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-width: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s linear
+ }
+ .form-content input[type="submit"]:hover {
+    background: #14265f;
+ }

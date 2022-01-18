@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hyundai - Автосервис</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styleregister.css">
+    <link rel="stylesheet" href="drive.css">
+    <link rel='icon' href='images/favicon.ico'>
+</head>
+<body>
+    <div id="right-side-container" style="height: 100%">
+        <div class="right-bar-buttons">
+            
+            
+            <i class="fas fa-book-open" onclick="toogleRightSide()"></i>
+        </div>
+        <div id="right-bar">
+           
+            <form action="" class="wedding">
+        
+                <div class="form-content">
+                <h3>Ваше имя:</h3>
+                <p><input required minlength="2"  type="text" name="your-name"></p>
+                <h3>Номер телефона : </h3>
+                <p>
+                <input class="nsel" type="tel" minlength="9" maxlength="9" pattern="0?1?2?3?4?5?6?7?8?9?8?7?6?5?4?3?2?1?0?0?1?2?3?4?5?6?7?8?9?8?7?6?5?4?3?2?1?0?0?1?2?3?4?5?6?7?8?9?8?7?6?5?4?3?2?1?0?0?1?2?3?4?5?6?7?8?9?8?7?6?5?4?3?2?1?0?" id="find" name="find" value="Номер телефона" onfocus="this.style.backgroundColor='#F0F0F0';this.value='';" onblur="this.style.backgroundColor='#FFFFFF';if (this.value != '') {this.onfocus = function(){this.style.backgroundColor='#F0F0F0';};} else this.value='Номер телефона';" />
+                </p>
+                <h3>Модель автомобиля</h3>
+                <p>
+                <select name="cars">
+                    <option value="hyundai">Creta</option>
+                    <option value="hyundai">Tucson Hybrid</option>
+                    <option value="hyundai">I20</option>
+                    <option value="hyundai">Elantra</option>
+                    <option value="hyundai">Accent</option>
+                    <option value="hyundai">Tucson</option>
+                    <option value="hyundai">Santa fe</option>
+                    <option value="hyundai">Palisade</option>
+                    <option value="hyundai">H-1</option>
+                    <option value="hyundai">Ioniq Hybrid</option>
+                    <option value="hyundai">Ioniq Electric</option>
+                </select>
+                </p>
+                <p><input type="submit" value="Записаться"></p>
+                </div>
+                </div>
+                </form>
+        
+    
+        </div>
+    </div>
+    <header>
+
+        <div class="left">
+                <a href="register.html">Запись на сервис</a>
+                <a   onclick="toogleRightSide()">Тест-Драйв</a>
+                <a href="contacts.html">Контакты</a>
+                
+        </div>
+        <div class="right">
+                <p><i class="far fa-clock"></i>ПН-ПТ 09.00 - 17.00</p>
+                <a href="tel:+37379232211"><i class="fas fa-phone"></i>+37379232211</a>
+        </div>
+    </header>
+    <nav class="headnav">
+        <a href=""><img src="images/logo.png" alt=""></a>
+        <div>
+            <a href="models.html">Модельный ряд</a>
+            <a href="special.html">Специальные предложения</a>
+            <a href="vac.html">Вакансии</a>
+        </div>
+    </nav>
+
+    <div class="main-page">
+        <div id="carousel">
+            <div class="owl-carousel">
+                <div> <img src="images/tucsonindex.jpg" alt=""> </div>
+                <div> <img src="images/tucsonnindex.jpg" alt=""></div>
+                <div> <img src="images/santafeindex.jpg" alt=""></div>
+                <div> <img src="images/sonataindex.jpg" alt=""></div>
+                <div> <img src="images/i30index.jpg" alt=""></div>
+                <div> <img src="images/elecindex.jpg" alt=""></div>
+                <div> <img src="images/carindex.jpg" alt=""></div>
+                <div><img src="images/elantraindex.jpg" alt=""></div>
+                
+                
+            </div>
+        </div>
+
+
+
+        <div class="bigtxt"><h1>НОВОСТИ</h1></div>
+        
+
+        <div class="primeri">
+            <img src="images/konanew.jpg" alt="1">
+            <div class="txt">
+                <h1> В Молдове стартуют продажи нового Hyundai Kona Hybrid</h1>
+                
+            </div>
+        </div>
+        <div class="primeri">
+            <img src="images/ioniqnew.jpg" alt="2">
+            <div class="txt">
+                <h1> Hyundai IONIQ 5 – новое слово в мире электромобилей</h1>
+                
+            </div>
+        </div>
+        <div class="primeri">
+            <img src="images/salonnew.jpg" alt="3">
+            <div class="txt">
+                <h1> Hyundai Motor представляет интерьер нового IONIQ 5 в преддверии международной онлайн-премьеры</h1>
+                
+            </div>
+        </div>
+        <div class="primeri">
+            <img src="images/hnew.jpg" alt="4">
+            <div class="txt">
+                <h1> Hyundai представил абсолютно новый TUCSON версии N Line</h1>
+                
+            </div>
+        </div>
+        
+             
+    </div>
+
+    <footer>
+        <div class="fbox"></div>
+        <div class="fcontainer">
+            <div class="fel">
+                <nav class="lists-one">
+                    <h4>Сервис</h4>
+                    <div>
+                        <ul>
+                            <li><a href="to.html">Техобслуживание</a></li>
+                            <li><a href="gurant.html">Гарантия</a></li>
+                            <li><a href="register.html">Запись на сервис</a></li>
+                            <li><a href="spareparts.html">Оригинальные запчасти</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <nav class="lists-two">
+                    <h4>Покупателю</h4>
+                    <div>
+                        <ul>
+                            <li><a href="contacts.html">Обратная связь</a></li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+
+                <nav class="lists-three">
+                    <h4>Автосалон</h4>
+                    <div>
+                        <a href="tel:+37379232211">+37379232211</a>
+                    </div>
+
+                    <h4>Сервис</h4>
+                    <div>
+                        <a href="tel:+37322803888">+37379232211</a>
+                    </div>
+
+                    <h4>Служба клиентской поддержки</h4>
+                    <div>
+                        <a href="tel:+37379232211">+37379232211</a>
+                    </div>
+
+                    <h4>Мы в соцсетях:</h4>
+                    <div>
+                        <a href="https://www.facebook.com/Hyundai.Moldova/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UCUsbss6p1E4YTCYCQSj30eA"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/hyundaimoldova/?igshid=1v432r9iwikep"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/hyundaimoldova"><i class="fab fa-telegram"></i></a>
+                        <a href="https://invite.viber.com/?g2=AQBy5x4pTKeODkuMOkahCjVynRgzbGTzR%2Ffyd6Jj0RWvzQdra1J5u4dSaB9UtN1K&lang=ru"><i class="fab fa-viber"></i></a>
+                    </div>
+
+
+                </nav>
+                
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="flbox">
+
+            <span>Все права защищены - 2020</span>
+
+        </div>
+    </footer>
+
+    
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+    <script>
+        
+        $(document).ready(function () {
+                $(".owl-carousel").owlCarousel({
+                    loop: true,
+                    autoplay:true,
+                    mouseDrag: false,
+                    nav: true,
+                    items:1,
+                    animateOut: 'fadeOut'
+                });
+            });
+    </script>
+    <script>
+            function toogleRightSide() {
+                document.getElementById('right-side-container').classList.toggle('active');
+            }
+        </script>
+
+</body>
+
+</html>

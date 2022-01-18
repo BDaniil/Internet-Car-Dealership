@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="drive.css">
+</head>
+<body>
+    <form action="" class="wedding">
+        
+        <div class="form-content">
+        <h3>Ваше имя:</h3>
+        <p><input required minlength="2"  type="text" name="your-name"></p>
+        <h3>Номер телефона : </h3>
+        <p>
+        <input class="nsel" type="tel" minlength="9" maxlength="9" pattern="0?1?2?3?4?5?6?7?8?9?8?7?6?5?4?3?2?1?0?0?1?2?3?4?5?6?7?8?9?8?7?6?5?4?3?2?1?0?0?1?2?3?4?5?6?7?8?9?8?7?6?5?4?3?2?1?0?0?1?2?3?4?5?6?7?8?9?8?7?6?5?4?3?2?1?0?" id="find" name="find" value="Номер телефона" onfocus="this.style.backgroundColor='#F0F0F0';this.value='';" onblur="this.style.backgroundColor='#FFFFFF';if (this.value != '') {this.onfocus = function(){this.style.backgroundColor='#F0F0F0';};} else this.value='Номер телефона';" />
+        </p>
+        <h3>Модель автомобиля</h3>
+        <p>
+        <select name="cars">
+            <option value="hyundai">Creta</option>
+            <option value="hyundai">Tucson Hybrid</option>
+            <option value="hyundai">I20</option>
+            <option value="hyundai">Elantra</option>
+            <option value="hyundai">Accent</option>
+            <option value="hyundai">Tucson</option>
+            <option value="hyundai">Santa fe</option>
+            <option value="hyundai">Palisade</option>
+            <option value="hyundai">H-1</option>
+            <option value="hyundai">Ioniq Hybrid</option>
+            <option value="hyundai">Ioniq Electric</option>
+        </select>
+        </p>
+        <p><input type="submit" value="Записаться"></p>
+        </div>
+        </div>
+        </form>
+</body>
+</html>
